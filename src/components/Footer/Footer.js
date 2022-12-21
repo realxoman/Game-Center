@@ -10,7 +10,7 @@ const Footer = () => {
   const classes = footerStyle();
   return (
     <footer className={classes.footer}>
-      <Box className={classes.container}>
+      <Box className={classes.container}  style={{ flexWrap: "wrap"}}>
         <Box className={classes.LeftFooter}>
           <h2>about us</h2>
           <Typography>something</Typography>

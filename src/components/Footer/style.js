@@ -2,6 +2,7 @@ import { makeStyles } from "@mui/styles";
 
 export const footerStyle = makeStyles((theme) => ({
   footer: () => ({
+    display: "flex",
     backgroundColor: "#F2D7D9",
     textAlign: "center",
     padding: "50px",
